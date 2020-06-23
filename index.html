@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ITS landing</title>
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+		<script src="scripts/main.js" defer></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+		<link href="styles/mystyle.css" rel="stylesheet" />
+	
+        <!-- Geocoder assets -->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" />
+	</head>
+	<body>
+		<section class="line">
+			<div class="left">
+				<div id="heading"><h1>ITS Landing conditions overview</h1></div>
+				<article id="weather"></article>
+					<form>
+						<fieldset>
+							<legend>Current weather conditions in your landing destination</legend>
+							<label for="city">City:</label>
+							<input type="text" name="city" id="city" />
+							<input type="button" id="getWeather" value="get current weather" />
+			</div>
+			<div class="right">
+	    		<div id="map"></div>
+	    	</div>
+	    </section>
+	</body>
+</html>

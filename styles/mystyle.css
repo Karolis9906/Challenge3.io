@@ -1,0 +1,56 @@
+
+body {
+	margin: 5vh 5vw;
+	font-family: verdana;
+	background: #9FB4C7;
+	overflow: hidden;
+
+}
+
+#weather {
+	background-color: white;
+	width: 200px;
+	padding: 6px;
+	text-align: center 200px;
+}
+
+#map {
+	float: right;
+	height: 90vh;
+	width: 100%;
+	margin-top: 5vh;
+}
+
+.customMarker {
+  background-image: url('https://www.searchpng.com/wp-content/uploads/2019/01/Game-Rocket-Clipart-PNG.png');
+  background-size: 100%;
+  background-repeat: no-repeat; 
+  width: 80px;
+  height: 80px;
+  
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 0 0 5px black;
+}
+
+.line{
+  width: 95%;
+  padding-bottom: 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.left{
+  width: 40%;
+  padding-bottom: 400px;
+}
+.right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left:  100px;
+}
